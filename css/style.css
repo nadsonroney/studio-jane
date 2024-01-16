@@ -5,7 +5,7 @@
 
 body::before {
     content: "";
-    position: fixed; /* Ou absolute, dependendo do comportamento desejado */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -13,14 +13,8 @@ body::before {
     z-index: -1;
     background-image: url('/img/castanho1.jpg');
     opacity: 0.1;
-    background-size: cover;
+    background-size: cover;   
 }
-
-/* .img-fundo {
-    position: absolute;
-    opacity: 0.2;
-    max-width: 100%;
-} */
 
 .foto {
     max-width: 80px;
@@ -37,7 +31,6 @@ header {
     align-items: center;
     box-sizing: border-box;
     color: black;
-    /* background: black; */
 }
 
 h2 {
@@ -50,7 +43,7 @@ h2 {
 }
 
 .logo {
-    max-width: 300px;
+    max-width: 400px;
     border-radius: 50%;
 }
 
@@ -59,16 +52,12 @@ h1 {
     text-align: center;
     margin-top: -5px;
     color: #d9a7aa;
-    /* background: #000; */
     padding-top: 30px;
-    /* padding-bottom: 20px; */
 }
 
 .imagens {
     display: flex;
     flex-direction: column;
-    /* background: #fff; */
-    /* box-sizing: border-box; */
     margin: 0 auto;
     align-items: center;
     max-width: 300px;
