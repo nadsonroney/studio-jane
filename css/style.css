@@ -3,22 +3,75 @@
     padding: 0;
 }
 
+body {
+    background-image: url("/img/castanho1.jpg");
+}
+
+/* .img-fundo {
+    position: absolute;
+    opacity: 0.2;
+    max-width: 100%;
+} */
+
+.foto {
+    max-width: 100px;
+    margin-bottom: -80px;
+    z-index: 0;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
 header {
     display: flex;
     width: 100%;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     box-sizing: border-box;
     color: black;
-    background: black;
+    /* background: black; */
+}
+
+h2 {
+    display: flex;
+    color: #d9a7aa;
+    margin-top: -80px;
+    font-family: constantia;
+    font-size: 16px;
+    box-sizing: border-box;
 }
 
 .logo {
-    max-width: 400px;
+    max-width: 300px;
+    border-radius: 50%;
 }
 
 h1 {
-    font-family: sans-serif;
+    font-family: constatina;
     text-align: center;
-    margin-top: 30px;
-    color: #d199ac;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(209,88,192,1) 100%, rgba(0,212,255,1) 100%);
+    margin-top: -5px;
+    color: #d9a7aa;
+    /* background: #000; */
+    padding-top: 30px;
+    /* padding-bottom: 20px; */
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    /* background: #fff; */
+    /* box-sizing: border-box; */
+    margin: 0 auto;
+    align-items: center;
+    max-width: 300px;
+    margin-top: 20px;
+    gap: 20px
+}
+
+.icones {
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    position: sticky;
+}
