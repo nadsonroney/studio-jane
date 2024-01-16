@@ -79,8 +79,3 @@ h1 {
 .icones {
     border-radius: 50%;
 }
-
-footer {
-    display: flex;
-    position: sticky;
-}
