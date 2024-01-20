@@ -68,3 +68,7 @@ h1 {
 .icones {
     border-radius: 50%;
 }
+
+.icones:hover {
+    
+}
